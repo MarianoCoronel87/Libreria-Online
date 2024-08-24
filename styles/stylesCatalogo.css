@@ -1,0 +1,73 @@
+/* estilos generales */
+body {  
+    font-family: 'Arial', sans-serif;  
+    line-height: 1.6;  
+    color: #333;  
+    background-color: #f9f9f9;  
+    padding-top: 10px;  
+}  
+a {  
+    color: #007bff;  
+    text-decoration: none;  
+} 
+h1, h2, h3, h4, h5 {  
+    color: #333;  
+    margin-bottom: 20px;  
+}  
+.navbar {  
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);  
+}
+/* estilos cartas   */
+.catalogo {  
+    padding: 20px;  
+    background-color: #f5f5f5;  
+}  
+.card {  
+    border: none;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+    transition: transform 0.3s, box-shadow 0.3s;  
+}  
+.card:hover {  
+    transform: translateY(-5px);  
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);  
+}  
+
+.card-title {  
+    font-size: 1.2em;  
+    color: #000;  
+}  
+
+.card-subtitle {  
+    font-size: 1em;  
+    color: #666;  
+}  
+.card-text {  
+    font-size: 0.9em;  
+    color: #555;  
+}
+.card-body {
+    text-align: center;
+}
+.card img{
+    width: 100%; 
+    height: auto; 
+    max-height: 600px;   
+    object-fit: cover; 
+}
+.card-link {  
+    text-decoration: none;  
+}  
+
+.card-link:hover {  
+    text-decoration: none;  
+}  
+
+.card {  
+    cursor: pointer; 
+    transition: transform 0.3s, box-shadow 0.3s;  
+}  
+
+.card:hover {  
+    transform: translateY(-5px);  
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);  
+}  
